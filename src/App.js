@@ -10,12 +10,17 @@ function App() {
   const [bookContent, setBookContent] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
 
+  const isLocalhost = window.location.hostname === "localhost";
+  const baseURL = isLocalhost ? "/data" : "/uzbek-nasr/data";
+
+
   useEffect(() => {
     // Load the book content when the component mounts
     const loadBook = async () => {
       try {
+        console.log(`base url is ${baseURL}`);
         const response = await fetch(
-          "/data/oybek_mukammal_asarlar_to_plami_20_jildlik_5_jild_qutlug_qon_roman_start_400_whole_ocr.txt"
+          `${baseURL}/oybek_mukammal_asarlar_to_plami_20_jildlik_5_jild_qutlug_qon_roman_start_400_whole_ocr.txt`
         );
         const text = await response.text();
 
@@ -29,7 +34,7 @@ function App() {
     };
 
     loadBook();
-  }, []);
+  }, [baseURL]);
 
   // Tokenize the text
   const tokenize = (text) =>
