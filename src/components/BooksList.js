@@ -30,6 +30,7 @@ function BooksList() {
 
   return (
     <div>
+      <h1>Hammasi bo'lib {works.length} ta asardan bahramand bo'ling</h1>
       <input className='form-control'
         type="text"
         placeholder="Qidirish..."
