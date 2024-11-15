@@ -5,7 +5,7 @@ const Dashboard = () => {
     return (
         <>
             <p>
-                Hurmatly o'quvchi. Ushbu o'zbek nasrlari <a href="https://n.ziyouz.com/" target="_blank">ziyouz</a> saytidan yuklab olindi.
+                Hurmatly o'quvchi. Ushbu o'zbek nasrlari <a href="https://n.ziyouz.com/" target="_blank" rel="noopener noreferrer">ziyouz</a> saytidan yuklab olindi.
                 Ziyouz saytida pdf tarzida taqdim etilgan bu asarlarni kamina dasturchilik qobiliyatimni ishga solib kitoblarni yuklab oldim, so'ngra pdf varaqlarini OCR texnologiyasi yordamida  textga o'girdim.
                 Avvalombor ushbu asarlarni o'zbek o'quvchilariga taqdim etgani uchun Ziyouz saytiga minnatdorchilik bildiraman.
                 PDF varaqlari ba'zi holatlarda tiniq bo'lmagani sababli Python OCR texnologiyasi textni aniq o'gira olmagan.
