@@ -10,8 +10,8 @@ function BooksList() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    async function fetchWorks() {
-      const response = await fetch(`${baseURL}/data/uzbek_works.json`);
+    async function fetchWorks() {      
+      const response = await fetch(`${baseURL}/data/uzbek_works.json`);      
       const data = await response.json();
       setWorks(data);
     }
