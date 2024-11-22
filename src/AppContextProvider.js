@@ -6,7 +6,7 @@ const AppContextProvider = ({ children }) => {
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [bookTitle, setBookTitle] = useState("");
     const isLocalhost = window.location.hostname === "localhost";
-    const baseURL = isLocalhost ? "/uzbek-nasr" : "/uzbek-nasr"
+    const baseURL = isLocalhost ? "" : "/uzbek-nasr"
 
     const contextValues = { isDarkMode, setIsDarkMode, baseURL, bookTitle, setBookTitle }
 
