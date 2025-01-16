@@ -5,15 +5,13 @@ import BooksList from "./BooksList";
 import BookContent from "./BookContent";
 
 const AppRoutes = () => {
-    return (
-        <Routes>
-            <Route path="/" element={<Outlet />} >
-                <Route index element={<Dashboard />} />
-                <Route path="/books" element={<BooksList />} />
-                <Route path="/book/:fileName" element={<BookContent />} />
-            </Route>
-        </Routes>
-    )
-}
+  return (
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/books" element={<BooksList />} />
+      <Route path="/book/:fileName" element={<BookContent />} />
+    </Routes>
+  );
+};
 
-export default AppRoutes
+export default AppRoutes;

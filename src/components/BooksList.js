@@ -37,13 +37,13 @@ function BooksList() {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <ul className='list-group'>
+      <div className='list-group'>
         {filteredWorks.map((work, index) => (
-          <li className='list-group-item' key={index} onClick={() => handleWorkClick(work)}>
+          <a href="#" className='list-group-item list-group-item-action' key={index} onClick={() => handleWorkClick(work)}>
             <strong>{work.author}</strong> - {work.work}
-          </li>
+          </a>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

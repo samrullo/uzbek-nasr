@@ -71,12 +71,12 @@ function BookContent() {
             Page {currentPage} of {bookContent.length || 1}
         </div>
 
-        <div className="button-container">
-            <button className="button" onClick={prevPage} disabled={currentPage === 1}>
+        <div className="page-button-container">
+            <button className="page-button" onClick={prevPage} disabled={currentPage === 1}>
                 Previous
             </button>
             <button
-                className="button"
+                className="page-button"
                 onClick={nextPage}
                 disabled={currentPage === bookContent.length}
             >
@@ -93,7 +93,7 @@ function BookContent() {
                     value={goToPage}
                     onChange={(e)=>setGoToPage(e.target.value)}
                 />
-                <button className="button" type="submit">Utish</button>
+                <button className="page-button" type="submit">Utish</button>
             </form>
         </div>
     </div>)
