@@ -13,3 +13,10 @@ Run below
 $env:NODE_OPTIONS="--openssl-legacy-provider"
 npm run start
 ```
+
+or on macos
+
+```zsh
+export NODE_OPTIONS=--openssl-legacy-provider
+npm start
+```
