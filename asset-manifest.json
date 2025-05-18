@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/uzbek-nasr/static/css/main.a8de303c.chunk.css",
+    "main.js": "/uzbek-nasr/static/js/main.e3b3dee6.chunk.js",
+    "main.js.map": "/uzbek-nasr/static/js/main.e3b3dee6.chunk.js.map",
+    "runtime-main.js": "/uzbek-nasr/static/js/runtime-main.07088683.js",
+    "runtime-main.js.map": "/uzbek-nasr/static/js/runtime-main.07088683.js.map",
+    "static/css/2.de1632da.chunk.css": "/uzbek-nasr/static/css/2.de1632da.chunk.css",
+    "static/js/2.41a9fe82.chunk.js": "/uzbek-nasr/static/js/2.41a9fe82.chunk.js",
+    "static/js/2.41a9fe82.chunk.js.map": "/uzbek-nasr/static/js/2.41a9fe82.chunk.js.map",
+    "static/js/3.55f05a00.chunk.js": "/uzbek-nasr/static/js/3.55f05a00.chunk.js",
+    "static/js/3.55f05a00.chunk.js.map": "/uzbek-nasr/static/js/3.55f05a00.chunk.js.map",
+    "index.html": "/uzbek-nasr/index.html",
+    "precache-manifest.2da1b91f76bc6138998076687f5d117a.js": "/uzbek-nasr/precache-manifest.2da1b91f76bc6138998076687f5d117a.js",
+    "service-worker.js": "/uzbek-nasr/service-worker.js",
+    "static/css/2.de1632da.chunk.css.map": "/uzbek-nasr/static/css/2.de1632da.chunk.css.map",
+    "static/css/main.a8de303c.chunk.css.map": "/uzbek-nasr/static/css/main.a8de303c.chunk.css.map",
+    "static/js/2.41a9fe82.chunk.js.LICENSE.txt": "/uzbek-nasr/static/js/2.41a9fe82.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07088683.js",
+    "static/css/2.de1632da.chunk.css",
+    "static/js/2.41a9fe82.chunk.js",
+    "static/css/main.a8de303c.chunk.css",
+    "static/js/main.e3b3dee6.chunk.js"
+  ]
+}
